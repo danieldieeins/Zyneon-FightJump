@@ -1,0 +1,22 @@
+name: "FightJump"
+version: '${project.version}'
+main: com.zyneonstudios.fightjump.FightJump
+api-version: 1.19
+authors: [ nerotvlive ]
+description: "FightJump is a minigame from the ZyneonStudios.com network. Based on the idea to recreate BergwerkLABS's TryJump"
+website: https://zyneonstudios.com
+
+depend:
+  - ZyneonAPI
+  - FastAsyncWorldEdit
+
+commands:
+  build:
+  test:
+  villager:
+  ready:
+    aliases: [fertig,bereit,skip]
+  set:
+  world:
+  gamemode:
+    aliases: [gm]
